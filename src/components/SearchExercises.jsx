@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
+import HorizontalScrollBar from "./HorizontalScrollBar";
 import { fetchData, ExerciseOptions } from "../utils/fetchData";
+
 const SearchExercises = () => {
   const [search, setSearch] = useState("");
   const [exercises, setExercises] = useState([]);
@@ -57,6 +59,8 @@ const SearchExercises = () => {
           Search
         </button>
       </div>
+
+      
     </div>
   );
 };
