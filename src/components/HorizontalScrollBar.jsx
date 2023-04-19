@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
 
-const HorizontalScrollBar = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const HorizontalScrollBar = (props) => {
+  console.log(props.data);
+  return <div></div>;
+};
 
-export default HorizontalScrollBar
+export default HorizontalScrollBar;

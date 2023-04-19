@@ -44,7 +44,7 @@ const SearchExercises = () => {
       <h1 className="text-5xl main-heading text-center mx-auto font-[500] max-w-xl">
         Awesome Exercises You Should Know 🚀
       </h1>
-      <div className="border mx-auto flex flex-row justify-center items-center mt-8">
+      <div className=" mx-auto flex flex-row justify-center items-center mt-8">
         <input
           type="text"
           placeholder="Search Exercises ...."
@@ -58,9 +58,8 @@ const SearchExercises = () => {
         >
           Search
         </button>
+        <HorizontalScrollBar data={bodyParts} />
       </div>
-
-      
     </div>
   );
 };
