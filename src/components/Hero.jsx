@@ -2,7 +2,7 @@ import React from "react";
 import HeroImg from "./../assets/hero.avif";
 const Hero = () => {
   return (
-    <div className="flex flex-row justify-between  items-center   container mx-auto px-12 space-x-12">
+    <div className="flex flex-row justify-between  items-center mt-8  container mx-auto px-12 space-x-12">
       <div className="md:w-3/5 ">
         <h1 className="text-6xl my-4 font-[800] text-[#403d39]  max-w-xl font-bold leading-18 shadow-sm heading ">
           <span className=" main-heading">
