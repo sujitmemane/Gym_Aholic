@@ -1,8 +1,9 @@
 * {
   font-family: "Rubik", sans-serif;
+}
+body {
   color: #403d39;
 }
-
 .main-heading {
   text-shadow: 1px 0px 8px rgba(116, 101, 101, 0.6);
 }
