@@ -4,7 +4,7 @@ import ReactPaginate from "react-paginate";
 
 const Exercises = ({ exercises }) => {
   const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 6;
+  const itemsPerPage = 9;
 
   const startIndex = currentPage * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
