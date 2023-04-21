@@ -16,7 +16,10 @@ const Hero = () => {
           programs to help you get a healty and a ideal body.
         </p>
         <div className="flex justify-center md:justify-start">
-          <a className=" text-center shadow-4xl px-8 py-4 bg-[#6557fd] font-[500] rounded text-md  text-white cursor-pointer hover:opacity-90">
+          <a
+            href="#exercises"
+            className=" text-center shadow-4xl px-8 py-4 bg-[#6557fd] font-[500] rounded text-md  text-white cursor-pointer hover:opacity-90"
+          >
             Explore Exercises
           </a>
         </div>
