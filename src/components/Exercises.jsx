@@ -17,9 +17,9 @@ const Exercises = ({ exercises }) => {
   const pageCount = Math.ceil(exercises.length / itemsPerPage);
 
   return (
-    <div className="container mx-auto  my-8 p-4 ">
-      <div className="flex items-center justify-center">
-        <div className="grid grid-cols-3  mx-auto  gap-8 ">
+    <div className="container mx-auto  my-8 p-4  ">
+      <div className="flex items-center justify-center " id="exercises">
+        <div className="grid grid-cols-2 md:grid-cols-3  mx-auto  gap-8 ">
           {currentExercises.map((exercise) => (
             <ExerciseCard
               key={exercise.id}

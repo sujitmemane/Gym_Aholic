@@ -6,8 +6,8 @@ import { ImTarget } from "react-icons/im";
 const DetailExercises = ({ data }) => {
   return (
     <div className="contianer mx-auto">
-      <div className="flex items-start justify-between space-x-8  p-12">
-        <div className="md:w-1/2  ">
+      <div className="flex flex-col md:flex-row  items-center md:items-center justify-between space-x-8  md:p-12">
+        <div className="w-full md:w-1/2  flex items-center justify-center ">
           <img src={data.gifUrl} loading="lazy" className="w-2/3" />
         </div>
         <div className="md:w-1/2 p-8">

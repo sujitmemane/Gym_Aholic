@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <div className="bg-black">
       <div className="container mx-auto px-16 py-8">
-        <div className="flex flex-row justify-between items-center text-white ">
+        <div className="flex flex-col md:flex-row justify-between items-center text-white  ">
           <h1 className="text-white text-2xl cursor-pointer">GymAholic</h1>
           <h2 className="text-white font-bold">
-            Developed By{" "}
+            Developed By
             <a
               href="https://twitter.com/iAmSujitMemane"
               target="_blank"

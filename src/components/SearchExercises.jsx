@@ -29,19 +29,19 @@ const SearchExercises = ({ setExercises }) => {
 
   return (
     <div className="container mx-auto px-12 mt-24 ">
-      <h1 className="text-5xl main-heading text-center mx-auto font-[500] max-w-xl">
+      <h1 className="text-2xl md:text-5xl main-heading text-center mx-auto font-[500] max-w-xl">
         Awesome Exercises You Should Know 🚀
       </h1>
       <div className=" mx-auto flex flex-row justify-center items-center mt-8">
         <input
           type="text"
           placeholder="Search Exercises ...."
-          className="w-2/4 px-6 py-3 text-xl focus:outline-none "
+          className="w-2/4 px-6 py-3 text-xs md:text-xl focus:outline-none "
           value={search}
           onChange={searchInputHandler}
         />
         <button
-          className=" px-10 py-3 bg-[#6557fd] font-[500] rounded text-md  text-white cursor-pointer hover:opacity-90"
+          className=" px-4 py-3 md:px-10 md:py-3 bg-[#6557fd] font-[500] rounded  text-xs md:text-md  text-white cursor-pointer hover:opacity-90"
           onClick={searchHandler}
         >
           Search
